@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+}
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+img{  
+ 
+   
+   }
+
+
+a{
+  color: white;
+  font-family: cursive;
+
+}    
+
+
+.perfil{
+  padding:7px;
+  float: right;
+  width:150px;
+  height:150px; 
+  border: 2px solid white;
+}
+
+
+input{
+  border-radius:30px;
+  padding: 20px;
+  width: 1800px;
+  height: 50px;
+}
+
+
+.funciones {
+  display: flex;
+  height: 100%;
+}
+
+
+#tabla{
+background-color: white;
+border: 2px solid black;
+width: 250px;
+height: 860px;
+box-shadow: rgba(0, 0, 0, 0.30) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.botones{
+  color: black;
+  width: 246px;
+  border: 0px solid black;
+  font-family: cursive;
+  background-color:transparent;
+  font-size: 20px;
+  cursor: pointer;
+ }
+
+#boton:
+hover {
+  background:#0b5292 ;
+
+}
+
+
+.info{
+  color: white;
+  float: right;
+  padding:0px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+#button1{
+        background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 200px;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 40px;
+       }

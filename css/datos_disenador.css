@@ -1,0 +1,46 @@
+#text{
+font-family: cursive;
+font-size: 70px;
+color:white;
+
+}
+.text{
+font-family: cursive;
+font-size: 20px;
+color:white;
+
+}
+label{
+font-family: cursive;
+font-size: 20px;
+color:white;
+}
+#button1{
+        background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 200px;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 40px;
+       }
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+	background-color:#0b5292;
+	border-radius: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#boton{
+	     background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 100px;
+        padding: 8px;
+        border: 1px solid white;
+
+}

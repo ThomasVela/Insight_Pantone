@@ -1,0 +1,157 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: cursive;
+
+}
+.modal{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a{
+  color: white;
+  font-family: cursive;
+
+}    
+
+
+p{
+  color: white;
+  font-family: cursive;
+}
+
+
+.perfil{
+  padding:7px;
+  float: right;
+  width:150px;
+  height:150px; 
+  border: 2px solid white;
+}
+
+
+.info{
+  color: white;
+  float: right;
+  padding:0px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+.inicial{
+  width: 200px;
+  padding: 8px; 
+  border: 0px;
+  border-radius: 5px;
+  background-color:#0b5292;
+  color: white;
+  font-family: cursive;
+}
+
+
+.diseño{
+    margin-left:100px ;
+    margin-top:50px ;
+    height:200px;
+    width:200px; 
+    float:right;
+    border-width:10px ;
+    border-radius:100px;
+    border-color:#00284b;
+    border-style:solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-modal:checked ~ .modal{
+  opacity: 1;
+  visibility: visible;
+} 
+.contenedor{
+  width: 800px;
+  height: 550px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateY(-30%);
+}
+#btn-modal:checked ~ .modal .contenedor{
+  transform: translateY(0%);
+} 
+.contenedor header{
+  padding: 10px;
+  background: #0b5292;
+  color: #fff;
+}
+.contenedor label{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.contenido{
+  width: 100%;
+  padding: 10px; 
+}
+.contenido h3{
+  margin-bottom: 10px;
+}
+.contenido p{
+  margin-bottom: 7px;
+}
+#btn-modal{
+  display: none;
+}
+.lbl-modal{
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .contenedor{
+    width: 95%;
+  }
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+  background-color:#0b5292;
+  border-radius: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#boton{
+       background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 100px;
+        padding: 8px;
+        border: 1px solid white;
+
+}

@@ -1,0 +1,55 @@
+
+#text1{
+font-family: cursive;
+font-size: 20px;
+color:black;
+
+}
+#button1{
+        background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 100px;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 40px;
+       }
+img{ margin-left:px ;
+    margin-top:0    px ;
+     height:200px;
+    width:200px; 
+    float:right;
+    border-width:5px ;
+    border-radius:100px;
+    border-color:#00284b;
+    border-style:solid;
+    display: flex;
+    justify-content: space-between;
+}
+p{color:black;
+font-family:cursive;
+font-size:14;
+width: 200px;
+
+}
+
+#table{
+    background-color: white;
+    margin: auto;
+    display: table;
+    width: 700px
+    
+
+
+}
+#text{
+font-family: cursive;
+font-size: 70px;
+color:white;
+
+}
+#text1{
+font-family: cursive;
+font-size: 20px;
+color:black;
+

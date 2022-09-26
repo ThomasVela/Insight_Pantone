@@ -1,0 +1,89 @@
+body, html {
+  height: 100%;
+}
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+button{
+        background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 100px;
+        padding: 8px; 
+        border: 1px solid white; 
+       }
+
+
+
+label{
+  color: white;
+  font-family: cursive;
+} 
+
+
+a{
+  color: white;
+  font-family: cursive;
+
+}  
+
+
+.inicial{
+  width: 200px;
+  padding: 8px; 
+  border: 0px;
+  border-radius: 5px;
+}
+.datos{
+  padding: 0px;
+}  
+
+
+.perfil{
+  float: right;
+  width:150px;
+  height:150px; 
+  border: 2px solid white;
+  padding: 2px;
+}
+
+
+
+.info{
+  color: white;
+  float: right;
+  padding:0px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.text{
+font-family: cursive;
+font-size: 60px;
+color:white;
+
+}
+
+.archivo{
+  background-image: url("imagenes/usuario.jpg"); 
+}
+
+input[type="file"]{
+    display: none;
+}
+.custom-file-upload {
+  background-color:#0b5292;
+  border-radius: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 2px 8px;
+    cursor: pointer;
+    margin-left: 28px;
+    margin-top: 5px;
+}

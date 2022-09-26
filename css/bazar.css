@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+#text{
+font-family: cursive;
+font-size: 70px;
+color:white;
+
+}   
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:70%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 #0D5FA8,
+   2px 2px 0 #0b5292,
+   3px 3px 0 #0b5292,
+   4px 4px 0 #0b5292,
+   5px 5px 0 #0b5292,
+   6px 6px 0 #0b5292,
+   7px 7px 0 #0b5292
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid #0D5FA8;
+}
+
+.field>input[type=submit] {
+  padding:0.6em 0.8em;
+  background-color:#0D5FA8;
+  color:white;
+  border:none;
+}
+img{ margin-left:20px ;
+    margin-top:0    px ;
+     height:200px;
+    width:200px; 
+    float:right;
+    border-width:10px ;
+    border-radius:100px;
+    border-color:#00284b;
+    border-style:solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+p{color:white;
+font-family:cursive;
+font-size:14;}
+
+#button1{
+        background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 200px;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 40px;
+       }
+#boton{
+         background-color:#0b5292;
+        font-family: cursive;
+        color:white;
+        width: 105px;
+        padding: 8px;
+        border-radius: 100px;
+        border: 1px solid white;
+
+}
